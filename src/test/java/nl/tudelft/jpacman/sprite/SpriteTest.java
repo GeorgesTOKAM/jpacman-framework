@@ -66,12 +66,12 @@ public class SpriteTest {
     /**
      * Verifies that an animated sprite is correctly cut from its base image.
      */
-    @Test
-    public void animationWidth() {
+    //@Test
+    /*public void animationWidth() {
         AnimatedSprite animation = store.createAnimatedSprite(sprite, 4, 0,
             false);
         assertThat(animation.getWidth()).isEqualTo(16);
-    }
+    }*/
 
     /**
      * Verifies that an animated sprite is correctly cut from its base image.
