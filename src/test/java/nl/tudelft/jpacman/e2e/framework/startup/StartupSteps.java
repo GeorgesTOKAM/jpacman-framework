@@ -39,10 +39,10 @@ public class StartupSteps {
     /**
      * Start playing the game.
      */
-    @When("^the user presses the \"Start\" button$")
+    /*@When("^the user presses the \"Start\" button$")
     public void theUserPressesStart() {
         getGame().start();
-    }
+    }*/
 
     /**
      * Verify that the play is actually running.
