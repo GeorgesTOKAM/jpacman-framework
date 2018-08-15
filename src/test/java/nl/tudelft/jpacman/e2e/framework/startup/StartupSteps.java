@@ -55,8 +55,8 @@ public class StartupSteps {
     /**
      * Close the UI after all tests are finished.
      */
-    @After("@framework")
+    /*@After("@framework")
     public void tearDownUI() {
         launcher.dispose();
-    }
+    }*/
 }
