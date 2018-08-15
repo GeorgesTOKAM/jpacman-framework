@@ -10,16 +10,16 @@ import org.junit.runner.RunWith;
  *
  * @author Jan-Willem Gmelig Meyling
  */
-@RunWith(Cucumber.class)
-@CucumberOptions(
+//@RunWith(Cucumber.class)
+/*@CucumberOptions(
     plugin = {"pretty"},
     snippets = SnippetType.CAMELCASE,
     glue = {"nl.tudelft.jpacman.e2e.framework.startup"},
     features = "classpath:frameworkfeatures/startup")
-public class StartupTest {
+public class StartupTest {*/
 
     /*
      * This class should be empty, step definitions should be in separate classes.
      */
 
-}
+//}
