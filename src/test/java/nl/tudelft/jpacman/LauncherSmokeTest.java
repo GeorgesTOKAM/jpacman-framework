@@ -52,10 +52,10 @@ public class LauncherSmokeTest {
      *
      * @throws InterruptedException Since we're sleeping in this test.
      */
-    @SuppressWarnings({"magicnumber", "methodlength", "PMD.JUnitTestContainsTooManyAsserts"})
-    @Test
-    void smokeTest() throws InterruptedException {
-        /*Game game = launcher.getGame();
+    //@SuppressWarnings({"magicnumber", "methodlength", "PMD.JUnitTestContainsTooManyAsserts"})
+    //@Test
+    /*void smokeTest() throws InterruptedException {
+        Game game = launcher.getGame();
         Player player = game.getPlayers().get(0);
 
         // start cleanly.
@@ -96,8 +96,8 @@ public class LauncherSmokeTest {
         assertThat(player.isAlive()).isFalse();
 
         game.stop();
-        assertThat(game.isInProgress()).isFalse();*/
-    }
+        assertThat(game.isInProgress()).isFalse();
+    }*/
 
     /**
      * Make number of moves in given direction.
