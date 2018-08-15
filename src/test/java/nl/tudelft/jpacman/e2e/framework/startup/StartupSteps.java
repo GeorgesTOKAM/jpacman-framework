@@ -57,6 +57,6 @@ public class StartupSteps {
      */
     @After("@framework")
     public void tearDownUI() {
-        //launcher.dispose();
+        launcher.dispose();
     }
 }
