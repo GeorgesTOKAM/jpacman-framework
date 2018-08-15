@@ -30,11 +30,11 @@ public class StartupSteps {
      * Launch the game. This makes the game available via
      * the {@link #getGame()} method.
      */
-    @Given("^the user has launched the JPacman GUI$")
+    /*@Given("^the user has launched the JPacman GUI$")
     public void theUserHasLaunchedTheJPacmanGUI() {
         launcher = new Launcher();
         launcher.launch();
-    }
+    }*/
 
     /**
      * Start playing the game.
